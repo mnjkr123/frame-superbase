@@ -7,7 +7,7 @@ const frameMetadata = getFrameMetadata({
       label: "Begin"
     }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmYLaG5RCtwjCcFPetVvGtYoZwjUCfnTnV87wJ2fsgd1Gr/0.png`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTMR92YEXTMQspi2mxgni44jcbpnn672QMgakNKa2jVSG/0.png`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'SuperBase',
     description: 'A frame about the launch of SuperBase Token and NFTs',
-    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmYLaG5RCtwjCcFPetVvGtYoZwjUCfnTnV87wJ2fsgd1Gr/0.png`],
+    images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmTMR92YEXTMQspi2mxgni44jcbpnn672QMgakNKa2jVSG/0.png`],
   },
   other: {
     ...frameMetadata,
